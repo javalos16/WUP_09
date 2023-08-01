@@ -137,7 +137,7 @@ for the best model for adjusted r square is 0.8482
 
 ## Final Summary Statements
 
-Looking at all the data from all tree from lowest to highest is: Roach 0.8482,Perch is 0.94, Pike is 0.9649. looking at all the data Pike is the best.
+Looking at all the data from all tree from lowest to highest  r-square  is: Roach r=0.8482,Perch is r=0.94, Pike is r=0.9649. looking at all the data Pike is the best.
 
 ## Discussion & Conclution 
 
