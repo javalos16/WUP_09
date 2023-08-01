@@ -91,11 +91,11 @@ The best two best variable to predict weight are height and width.
 ### Best Two regressor model
 
 ```{r}
-pikeModel=lm(Weight~Height+Width,data=pike)
+pikeModel=lm(Weight~Length1+Length3,data=pike)
 summary(pikeModel)
 ```
 
-for the best model for adjusted r square is 0.863
+for the best model for adjusted r square is 0.9649
 ## Roach
 
 ```{r}
@@ -129,16 +129,16 @@ The best two best variable to predict weight are height and width.
 ### Best Two regressor model
 
 ```{r}
-RoachModel=lm(Weight~Height+Width,data=Roach)
+RoachModel=lm(Weight~Length3+Width,data=Roach)
 summary(RoachModel)
 ```
 
-for the best model for adjusted r square is 0.8391
+for the best model for adjusted r square is 0.8482
 
 ## Final Summary Statements
 
-Looking at all the data from all tree from lowest to highes is: Roach 0.8391, Pike is 0.863, Perch is 0.94. looking at all the data Perch is the best.
+Looking at all the data from all tree from lowest to highest is: Roach 0.8482,Perch is 0.94, Pike is 0.9649. looking at all the data Pike is the best.
 
 ## Discussion & Conclution 
 
-Among these models we found the best to be Perch. Perch is the best because it is the highest r square.
+Among these models we found the best to be Pike. Pike is the best because it is the highest r square.
